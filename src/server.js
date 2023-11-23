@@ -8,6 +8,6 @@ const app = require("./app");
 const mongoDbUri = process.env.MONGO_URI;
 mongoose.connect(mongoDbUri);
 
-app.listen(port, () => {
+app.listen(5000, () => {
   console.log(`API server started at ${port}`);
 });
